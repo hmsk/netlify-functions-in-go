@@ -5,4 +5,4 @@
 [build.environment]
   GOBIN = "/opt/build/repo/functions"
 [template.environment]
-  GO_IMPORT_PATH = "github.com/[your account/org]/netlify-functions-in-go"
+  GO_IMPORT_PATH = "GO_IMPORT_PATH. Set your repository location: github.com/[Account]/[Repository name]"
