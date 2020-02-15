@@ -7,7 +7,6 @@ Deployable template of multiple Go lambda functions for [Netlify Functions](http
 ## File structure
 
 ```
-
 ├── Makefile
 ├── cmd
 │   ├── goodbye
@@ -37,3 +36,12 @@ In this sample, `utils/utils.go` provides `utils.IntroductionYourself` for `hell
 
 This dir will be deployed as a website. The root path for your Netlify app brings visitors here.
 Put HTML/assets...etc to support your functions 💪
+
+## Development
+
+
+```
+$ make
+```
+
+Try to build packages and saves Go binaries into `functions` dir.
