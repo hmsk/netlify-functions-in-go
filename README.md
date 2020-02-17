@@ -39,9 +39,20 @@ Put HTML/assets...etc to support your functions 💪
 
 ## Development
 
+### Build
 
 ```
 $ make
 ```
 
 Try to build packages and saves Go binaries into `functions` dir.
+
+### Run tests
+
+```
+$ make test
+```
+
+## License
+
+[MIT License](LICENSE) Copyright (c) 2020 Kengo Hamasaki
