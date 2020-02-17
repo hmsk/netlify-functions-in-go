@@ -12,7 +12,7 @@ func handler(request events.APIGatewayProxyRequest) (*events.APIGatewayProxyResp
 	fmt.Print("Got request for '/.netlify/functions/hello', this message is dumpled by 'cmd/hello/main.go'")
 	return &events.APIGatewayProxyResponse{
 		StatusCode: 200,
-		Body:       "Hello, I'm from 'cmd/goodbye/main.go'!",
+		Body:       "Hello, I'm from 'cmd/hello/main.go'!",
 		//Body:       utils.IntroductionYourself("cmd/goodbye/main.go"),
 	}, nil
 }
